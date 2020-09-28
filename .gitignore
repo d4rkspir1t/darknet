@@ -3,22 +3,22 @@
 *.dSYM
 *.csv
 *.out
-# *.png
+*.png
 *.so
 *.exe
 *.dll
 *.lib
 *.dylib
 mnist/
-# data/
+data/
 caffe/
 grasp/
-# images/
+images/
 opencv/
 convnet/
 decaf/
 submission/
-# cfg/
+cfg/
 build/darknet/*
 build_*/
 !build/darknet/YoloWrapper.cs
@@ -26,13 +26,13 @@ build_*/
 *.weights
 build/*.cmake
 build/*.ninja
-# build/*.txt
+build/*.txt
 build/*.json
 build/CMakeFiles/
 build/detect_cuda_compute_capabilities.cu
 build/.ninja_deps
 build/.ninja_log
-# build/Makefile
+build/Makefile
 
 # OS Generated #
 .DS_Store*
@@ -51,9 +51,7 @@ src/version.h
 # Build artifacts
 lib/
 share/
-# include/darknet/
+include/darknet/
 uselib
 uselib_track
-# darknet
-
-*.conv.137	
+darknet
